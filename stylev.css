@@ -1,0 +1,87 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: whitesmoke;
+}
+
+.container{
+    background-color: white;
+    width: 416px;
+    height: 905px;
+    margin: auto;
+    border-radius: 16px;
+    padding: 40px;
+    gap: 16px;
+    border: 1px;
+    margin-top: 20px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1{
+    size: 25px;
+    line-height: 30.24px;
+    color: #5299f7;
+}
+
+form {
+    width: 336px;
+    height: 70px;
+    border-radius: 16px;
+    gap: 8px;
+}
+
+label{
+    font-weight: bold;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 13px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+textarea{
+    width: 380px;
+    height: 26px;
+    padding: 8px;
+    gap: 8px;
+    margin-left: 5px;
+    margin-top: 5px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    background-color: white;
+    transition: border-color 0.3s ease;
+}
+
+select{
+    width: 400px;
+    height: 37px;
+    padding: 8px;
+    gap: 8px;
+    margin-left: 5px;
+    margin-top: 5px;
+
+    border: 1px solid #ddd;
+    border-radius: 6px;
+
+    background-color: white;
+    transition: border-color 0.3s ease;
+}
+
+
+button{
+    width: 320px;
+    height: 40px;
+    padding: 8px;
+    border-radius: 6px;
+    margin-left: 40px;
+    margin-top: 20px;
+
+    background: #DA4B26;
+    color: white;
+}
